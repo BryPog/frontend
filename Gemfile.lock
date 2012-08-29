@@ -91,6 +91,8 @@ GEM
     govspeak (0.8.15)
       htmlentities (~> 4)
       kramdown (~> 0.13.3)
+    govuk_frontend_toolkit (0.0.2)
+      rails (>= 3.1.0)
     hike (1.2.1)
     htmlentities (4.3.1)
     i18n (0.6.0)
@@ -220,6 +222,7 @@ DEPENDENCIES
   gelf
   geogov (~> 0.0.10)
   govspeak (~> 0.8.15)
+  govuk_frontend_toolkit (= 0.0.2)
   launchy
   lograge
   mocha

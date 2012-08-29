@@ -3,6 +3,7 @@ source 'https://gems.gemfury.com/vo6ZrmjBQu5szyywDszE/'
 
 gem 'rummageable', :git => 'git@github.com:alphagov/rummageable.git'
 gem 'gds-warmup-controller'
+gem 'govuk_frontend_toolkit', '0.0.2'
 
 group :router do
   gem 'router-client', '2.0.3', require: 'router/client'
